@@ -34,6 +34,6 @@ To get started with this project, follow these steps:
 - **Reset**:Click the "Reset" button to stop and reset the timer to zero.
 
 ## Technologies Used
--- **React**:
--- **JS**:
--- **HTML/:CSS**
+- **React**
+- **JS**:
+- **HTML/:CSS**
