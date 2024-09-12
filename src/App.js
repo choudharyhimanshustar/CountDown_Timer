@@ -60,7 +60,7 @@ function App() {
         </div>
         <div className="buttons">
           <button onClick={() => setActive(true)}>Start</button>
-          <button onClick={() => setActive(false)}>Pause</button>
+          <button onClick={() => {setActive(false);clearInterval(timerId.current)}}>Pause</button>
           <button onClick={() => { setActive(false); setSeconds(0); setMinutes(0); setHours(0) }}>Reset</button>
         </div>
 
